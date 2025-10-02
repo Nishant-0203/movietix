@@ -122,4 +122,10 @@
   body {
     @apply bg-background text-foreground;
   }
+  .modern-btn {
+    @apply bg-gradient-to-r from-primary to-secondary text-primary-foreground shadow-md rounded-xl transition-transform duration-200;
+  }
+  .modern-btn:hover {
+    @apply scale-105 shadow-lg;
+  }
 }
